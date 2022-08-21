@@ -2,10 +2,26 @@
 .wrapper {
     width: 100vw;
     height: 100vh;
+    color: #fff;
 }
 
 .container {
     padding: 0 100px;
     height: 100%;
     width: 100%;
+}
+
+.nav-list {
+    display: flex;
+
+    &_link {
+        text-decoration: none;
+        margin-right: 20px;
+        color: #fff;
+
+
+        &:last-child {
+            margin-right: 0px;
+        }
+    }
 }
